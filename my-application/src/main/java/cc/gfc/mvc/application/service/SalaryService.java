@@ -4,9 +4,9 @@ package cc.gfc.mvc.application.service;
 import cc.gfc.mvc.framework.annotation.MyBean;
 
 /**
+ * @author xiaoguo
  * @ClassName: SalaryService
  * @Description:
- * @CreatedBy: fcguo
  * @CreatedAt: 6/21/19 11:34 AM
  **/
 @MyBean

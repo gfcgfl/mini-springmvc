@@ -33,5 +33,9 @@ public class SalaryController {
         return new User("xxx", "1000");
     }
 
-
+    @MyRequestMapping("/salary/id")
+    public Integer getSalaryById(@MyRequestParam("id") String id) {
+//        System.out.println(id);
+        return salaryService.getSalaryById(Integer.parseInt(id));
+    }
 }
